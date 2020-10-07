@@ -3,18 +3,30 @@
 ---
 
 @import "minima";
+@import "css/native.css";
+
+/*Colors:
+Dark_S: rgb(55,55,61);
+Dark_M: rgb(37,37,38);
+Dark_L: rgb(30,30,30);
+Blue_S: rgb(124,220,254);
+Blue_M: rgb(12,125,157);
+Grey_S: rgb(204,204,204);
+Grey_M: rgb(133,133,133);
+*/
 
 body,
 header,
 footer {
-  background-color: #19262b;
-  color: #9bbbc7;
+  background-color: #1e1e1e;
+  color: #cccccc;
   font-family: "Open Sans", sans-serif;
+  background: url(images/noisy.png) repeat 100px 100px;
 }
 
 .site-header,
 .site-footer {
-  border-color: #151c1f;
+  border-color: #252526;
 }
 
 h1,
@@ -23,7 +35,7 @@ h3,
 h4,
 h5,
 h5 {
-  color: #51869c;
+  color: #0c7d9d;
 }
 
 a,
@@ -34,21 +46,32 @@ a:visited,
 .site-nav:visited,
 .page-link,
 .page-link:visited {
-  color: #1d9ed1;
+  color: #0c7d9d;
 }
 
 a:hover,
 .site-title:hover,
 .site-nav:hover,
 .page-link:hover {
-  color: #51869c;
+  color: #7cdcfe;
   text-decoration: none;
 }
 
 img {
   border-radius: 10px;
   margin: 5px;
-  box-shadow: 0px 0px 5px 0px #9bbbc7;
+  box-shadow: 0px 0px 5px 0px #37373d;
 }
 
-@import "native.css";
+pre,
+code {
+  font-size: 15px;
+  color: #cccccc;
+  border: 1px solid #37373d;
+  border-radius: 3px;
+  background-color: #252526;
+}
+
+.highlight pre {
+  background-color: #252526;
+}
