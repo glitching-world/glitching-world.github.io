@@ -3,3 +3,52 @@
 ---
 
 @import "minima";
+
+body,
+header,
+footer {
+  background-color: #19262b;
+  color: #9bbbc7;
+  font-family: "Open Sans", sans-serif;
+}
+
+.site-header,
+.site-footer {
+  border-color: #151c1f;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  color: #51869c;
+}
+
+a,
+a:visited,
+.site-title,
+.site-title:visited,
+.site-nav,
+.site-nav:visited,
+.page-link,
+.page-link:visited {
+  color: #1d9ed1;
+}
+
+a:hover,
+.site-title:hover,
+.site-nav:hover,
+.page-link:hover {
+  color: #51869c;
+  text-decoration: none;
+}
+
+img {
+  border-radius: 10px;
+  margin: 5px;
+  box-shadow: 0px 0px 5px 0px #9bbbc7;
+}
+
+@import "native.css";
