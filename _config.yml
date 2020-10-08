@@ -6,6 +6,28 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my little Blog / Portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://glitching-world.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+logo: # URL to a site-wide logo (e.g., /assets/fox-selfie.png)
+
+#twitter: # site twitter handle
+#  username:
+
+#facebook:
+#  app_id: # a Facebook app ID for Facebook insights
+#  publisher: # a Facebook page URL or ID of the publishing entity
+#  admins: # a Facebook user ID for domain insights linked to a personal account
+
+social:
+  name: glitching.wolrd
+  links:
+    - https://twitter.com/glitching_world
+#    - https://www.instagram/
+#    - https://www.facebook.com/
+
+#webmaster_verifications: # google_site_verification
+#  google:
+#  bing:
+#  alexa:
+
 twitter_username: glitching_world
 github_username: glitching-world
 
@@ -14,3 +36,4 @@ github_username: glitching-world
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
