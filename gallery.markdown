@@ -2,9 +2,9 @@
 layout: default
 title: Projects
 images:
-  - image_path: /assets/images/res_banner.jpg
-    image_link: /jekyll/update/2020/10/08/Resolutions-and-Aspect-Ratios-Cheat-Sheet.html
-    title: Resolutions and Aspect Ratios Cheat Sheet
+  - image_path: /assets/images/noise_banner.jpg
+    image_link: /jekyll/update/2020/10/13/NOISE.html
+    title: NOISE - My computer sees things in weird way.
 ---
 
 <div class="gallery">

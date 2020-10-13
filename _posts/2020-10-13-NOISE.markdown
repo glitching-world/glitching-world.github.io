@@ -1,0 +1,28 @@
+---
+layout: post
+title: NOISE
+date: 2020-10-13 12:36:00 +0100
+categories: jekyll update
+author: António Costa
+description: NOISE, Final Arts and Multimedia Project
+featured-image: noise_banner.jpg
+featured-image-alt: NOISE - My computer sees things in weird way.
+---
+
+NOISE, is a project that allows the visualization of sound through the tampering of a live video feed that is captured and processed in real time, this visualization of the sound is achieved through scripts that create graphic effects inspired by real glitches, these are activated and tampered through sound inputs.
+
+The image and sound is captured through one or more webcams plus their respective microphones (I used PS3 eye cams).
+
+The tampering caused varied between changing the RGB channels or pixels individual values and positions, thus obtaining a colorful and unique visual effects. Sometimes the effect created by the glitch can be so drastic that the captured image becomes unrecognizable.
+
+An image: ![My computer sees things in weird way.](/assets/images/noise.jpg)
+
+> NOISE is more than visualization of sound, it represents a fragmented way of interpreting what surrounds us.
+
+## Past and Future
+
+This was my final bachelor degree project back in 2017, I'm posting here since the initial share of the NOISE was done in portuguese and I no longer have access to that GitHub account and the email associated with it. But since the site is still up here's the [link](https://noisepng.github.io/NOISE/), and you can find there a download [link](https://noisepng.github.io/NOISE/NOISE_V1.zip) for the code and files associated with the project in all it's **buggy glory**.
+
+I will speak of this again, but until then I will be review the code, cleaning it up, and I have a few new ideas to make what it will be **noise2**.
+
+> Probably also full of bugs.
