@@ -11,7 +11,7 @@ images:
   {% for image in page.images %}
   <a href="{{ image.image_link }}">
   <img src="{{ image.image_path }}" alt="{{ image.title}}" />
-  <blockquote>"{{ image.title }}"</blockquote>
+  <blockquote>{{ image.title }}</blockquote>
   </a>
   {% endfor %}
 </div>
