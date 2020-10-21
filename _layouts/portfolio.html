@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html class="port_html" lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ '/' | relative_url }}assets/main.css" />
+  <link rel="stylesheet" href="{{ '/' | relative_url }}assets/port.css" />
+  <script src="{{ '/' | relative_url }}assets/p5.min.js"></script>
+  <link rel="shortcut icon" type="image/icon" href="{{ '/' | relative_url }}favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700;900&display=swap" rel="stylesheet"
+    type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="port_body">
+  <header class="port_header">
+    <div class="port_wrapper">
+        <a class="page-link_port" href="{{ '/' | relative_url }}">Blog</a>
+        <a class="page-link_port" href = "mailto:glitching.world@gmail.com?subject=Talk with me!&body=So, do you want to hire me?">
+          Contact Me
+          </a>
+    </div>
+  </header>
+
+  <main class="port_main">
+    <div class="port_main_intro">
+      <p class="back_text">glitching.world</p>
+    </div>
+    <div class="port_main_small_text">
+      New Media Artist<br>
+      and Front-End Developer<br>
+      in learning
+    </div>
+    <div class="port_main_little_about">
+      <p>So you can see that oxymorons add humor or drama to speech or writing, allowing you to make a funny or pointed remark.</p>
+      <p>As well as playing with oxymorons, Oscar Wilde was also a master of symbolism. He enjoyed writing things that weren't meant to be taken literally, simply pondered upon.</p>
+    </div>
+
+    <!--
+      <script>
+        let sketch = function (p) {
+          p.setup = function () {
+            p.createCanvas(1000, 400);
+            p.background(0);
+          };
+        };
+        let node = document.createElement("div");
+        window.document.getElementsByTagName("body")[0].appendChild(node);
+        new p5(sketch, node);
+      </script>
+    </main>
+-->
+
+    <footer class="port_footer">
+      hello footer
+    </footer>
+</body>
+
+</html>

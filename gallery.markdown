@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Projects
+author: António Costa
+description: A kind of gallery for my projects.
+permalink: /projects/
 images:
   - image_path: /assets/images/noise_banner.jpg
     image_link: /jekyll/update/2020/10/13/NOISE.html
