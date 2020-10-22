@@ -94,6 +94,16 @@ a:hover {
   color: rgba(240, 240, 240, 0.85);
 }
 
+.port_anim,
+.p5Canvas {
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
 .port_footer {
   z-index: 7;
   position: absolute;
