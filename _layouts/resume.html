@@ -32,26 +32,56 @@
     }
 
     function draw() {
-      S = map(width, 0, 1920, 10, 350, true);
-      clear();
-      strokeWeight(2);
-      stroke(124, 220, 254);
-      noFill();
-      rotateZ(-0.2);
-      rotateX(-0.3);
-      push();
-      rotateY(frameCount * 0.0003);
-      sphere(S);
-      pop();
-      rotateX(PI / 1.85);
-      push();
-      rotateZ(frameCount * 0.0003);
-      ellipse(0, 0, width / 2 + 10);
-      ellipse(0, 0, width / 2 + 20);
-      ellipse(0, 0, width / 2 + 30);
-      ellipse(0, 0, width / 2 + 40);
-      ellipse(0, 0, width / 2 + 50);
-      pop();
+
+      if (S <= 800) {
+        S = map(width, 0, 800, 10, 250, true);
+
+        translate(-(S / 3), -(S / 2), 0);
+        clear();
+        strokeWeight(2);
+        stroke(124, 220, 254);
+        noFill();
+
+        rotateZ(-0.2);
+        rotateX(-0.3);
+
+        push();
+        rotateY(frameCount * 0.0003);
+        sphere(S);
+        pop();
+
+        rotateX(PI / 2);
+
+        push();
+        rotateZ(frameCount * 0.0003);
+        ellipse(0, 0, width - (width / 4) + 10);
+        ellipse(0, 0, width - (width / 4) + 30);
+        ellipse(0, 0, width - (width / 4) + 50);
+        ellipse(0, 0, width - (width / 4) + 70);
+        ellipse(0, 0, width - (width / 4) + 90);
+        pop();
+      } else {
+        S = map(width, 0, 1920, 10, 350, true);
+        clear();
+        strokeWeight(2);
+        stroke(124, 220, 254);
+        noFill();
+        rotateZ(-0.2);
+        rotateX(-0.3);
+        push();
+        rotateY(frameCount * 0.0003);
+        sphere(S);
+        pop();
+        rotateX(PI / 1.85);
+        push();
+        rotateZ(frameCount * 0.0003);
+        ellipse(0, 0, width / 2 + 10);
+        ellipse(0, 0, width / 2 + 20);
+        ellipse(0, 0, width / 2 + 30);
+        ellipse(0, 0, width / 2 + 40);
+        ellipse(0, 0, width / 2 + 50);
+        pop();
+      }
     }
   </script>
 
@@ -207,14 +237,13 @@
       <details>
         <summary>Attributions</summary>
         <div>
-          This Website is freely hosted on <a href="https://github.com/" title="GitHub">GitHub</a>.
+          This Website is hosted on <a href="https://github.com/" title="GitHub">GitHub</a>.
         </div>
         <div>
-          And <a href="https://jekyllrb.com/" title="GitHub">Jekyll</a> a static site generator is used as the
-          building plataform for this Website.
+          This Website is build using <a href="https://jekyllrb.com/" title="Jekyll">Jekyll</a>.
         </div>
         <div>
-          Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+          Icons used are made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
             href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
         </div>
       </details>
