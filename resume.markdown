@@ -1,7 +1,7 @@
 ---
-layout: portfolio
-title: Portfolio
+layout: resume
+title: Resume
 author: António Costa
 description: High impact page.
-permalink: /portfolio/
+permalink: /resume/
 ---

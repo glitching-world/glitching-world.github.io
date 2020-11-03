@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<!-- HEAD START -->
+
+<head>
+  <!-- META + SEO -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {%- seo -%}
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/' | relative_url }}assets/main.css" />
+  <link rel="stylesheet" href="{{ '/' | relative_url }}assets/resume.css" />
+  <!-- P5JS -->
+  <script src="{{ '/' | relative_url }}assets/p5.min.js"></script>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" type="image/icon" href="{{ '/' | relative_url }}favicon.ico" />
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+
+  <!-- BACKGROUND ANIMATION SCRIPT -->
+  <script>
+    let S;
+
+    function setup() {
+      smooth();
+      var canvasDiv = document.getElementById('sketch');
+      var width = canvasDiv.offsetWidth;
+      var height = canvasDiv.offsetHeight;
+      var canvas = createCanvas(width, height, WEBGL);
+      canvas.parent('sketch');
+    }
+
+    function draw() {
+      S = map(width, 0, 1920, 10, 350, true);
+      clear();
+      strokeWeight(2);
+      stroke(124, 220, 254);
+      noFill();
+      rotateZ(-0.2);
+      rotateX(-0.3);
+      push();
+      rotateY(frameCount * 0.0003);
+      sphere(S);
+      pop();
+      rotateX(PI / 1.85);
+      push();
+      rotateZ(frameCount * 0.0003);
+      ellipse(0, 0, width / 2 + 10);
+      ellipse(0, 0, width / 2 + 20);
+      ellipse(0, 0, width / 2 + 30);
+      ellipse(0, 0, width / 2 + 40);
+      ellipse(0, 0, width / 2 + 50);
+      pop();
+    }
+  </script>
+
+</head>
+<!-- HEAD END -->
+
+<body>
+  <!-- HEADER START -->
+  <header class="site-header  spacer_top_small">
+    <div class="wrapper">
+      <a class="page-link button" href="{{ '/' | relative_url }}">Blog</a>
+      <a class="page-link button"
+        href="mailto:glitching.world@gmail.com?subject=Talk with me!&body=So, do you want to hire me?">
+        Contact Me
+      </a>
+    </div>
+  </header>
+  <!-- HEADER END -->
+
+  <!-- CONTENT START -->
+  <main class="page-content">
+    <div class="wrapper">
+
+      <!-- WHAT -->
+      <div class="txt_what">
+        New Media Artist<br>
+        and Front-End Developer<br>
+        in learning
+      </div>
+
+      <!-- EMPTY SPACE -->
+      <div class="empty_space">
+        <!-- it's supposed to be empty -->
+      </div>
+
+      <!-- ABOUT -->
+      <div class="txt_about spacer_top">
+        <h2>Hi! Name is António Costa</h2>
+        <p>
+          This is my little Resume page (I know it's a little empty) now I'm a grind to redo things I did in the past
+          because an old trusty hard drive turned no so trusty (that was a harsh way to learn "responsible backup").
+        </p>
+        <p>
+          Since I was growing bored and unaccomplished with a career in logistics I decided to go back in my field of
+          studies and pursue the world of Web Dev or Animation, and this site came to creation with those objectives in
+          mind.
+        </p>
+        <p>
+          After having a glance at this page if you feel inclined to learn more about me or what I do, you can always
+          check out my <a class="page-link" href="{{ '/' | relative_url }}">Blog</a>.
+        </p>
+      </div>
+
+      <!-- SKILLS IN DEV -->
+      <div class="row spacer_top">
+        <h2>Skills in Dev:</h2>
+      </div>
+      <div class="row">
+        <blockquote>
+          I may not be an expert, but if I have an idea or project to complete I will make sure to finish it
+          regardless of how many new skills I have to learn.
+          This Website is my first project in Static Web Dev using new tools like Markdown and Liquid. Also, the planet
+          you see spinning on the background is an animation made in p5.js (Why a planet? "It serves as a placeholder
+          for when I have a neater idea.").
+        </blockquote>
+      </div>
+      <div class="row">
+        <div class="col in_3s">
+          <img class="svg svg1" src="{{ '/' | relative_url }}assets/icons/html_css.svg">
+          <br>
+          HTML + CSS
+        </div>
+
+        <div class="col in_3s">
+          <img class="svg svg1" src="{{ '/' | relative_url }}assets/icons/static.svg">
+          <br>
+          Static Web Design
+        </div>
+
+        <div class="col in_3s">
+          <img class="svg svg1" src="{{ '/' | relative_url }}assets/icons/coding.svg">
+          <br>
+          Processing + p5.js
+        </div>
+      </div>
+
+      <!-- SKILLS IN ANIMATION-->
+      <div class="row spacer_top">
+        <h2>Skills in Animation:</h2>
+      </div>
+      <div class="row">
+        <blockquote>
+          Under Construction: Assets still being created so they can be added latter. Please come tomorrow.
+        </blockquote>
+      </div>
+      <div class="row">
+        <div class="col in_3s">
+          <img class="svg svg1" src="{{ '/' | relative_url }}assets/icons/under_construction.svg">
+          <br>
+          Stop motion
+        </div>
+
+        <div class="col in_3s">
+          <img class="svg svg1" src="{{ '/' | relative_url }}assets/icons/under_construction.svg">
+          <br>
+          2D Vector-based animation
+        </div>
+
+        <div class="col in_3s">
+          <img class="svg svg1" src="{{ '/' | relative_url }}assets/icons/under_construction.svg">
+          <br>
+          3D computer animation
+        </div>
+      </div>
+
+      <!-- HOBBIES -->
+      <div class="row spacer_top">
+        <h2>Hobbies:</h2>
+      </div>
+      <div class="row">
+      </div>
+      <div class="row">
+        <div class="col in_2s">
+          <img class="svg svg2" src="{{ '/' | relative_url }}assets/icons/game.svg">
+          <br>
+          Game Dev
+          <blockquote>
+            Game development was something that always fascinated me, and the creation of my blog sparked even more
+            interest in it. Now more than just watching the backstage I want to make something to, and I'm using this
+            new-found interest as a reason to learn programming.
+          </blockquote>
+        </div>
+
+        <div class="col in_2s">
+          <img class="svg svg2" src="{{ '/' | relative_url }}assets/icons/chip.svg">
+          <br>
+          Arduino + Raspberry Pi
+          <blockquote>
+            Always found micro controllers and computers pretty neat since I had to do a few projects with is in school,
+            but some people, even with the limitations of the hardware, can make some amazing stuff. I want to be part
+            of that community.
+          </blockquote>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <!-- CONTENT END -->
+
+  <!-- FOOTER START -->
+  <footer class="site-footer">
+    <div class="wrapper">
+      <details>
+        <summary>Attributions</summary>
+        <div>
+          This Website is freely hosted on <a href="https://github.com/" title="GitHub">GitHub</a>.
+        </div>
+        <div>
+          And <a href="https://jekyllrb.com/" title="GitHub">Jekyll</a> a static site generator is used as the
+          building plataform for this Website.
+        </div>
+        <div>
+          Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+        </div>
+      </details>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+
+  <!-- BACKGROUND -->
+  <div class="anim_background" id="sketch"></div>
+</body>
+
+</html>

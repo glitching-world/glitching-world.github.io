@@ -1,0 +1,161 @@
+body,
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+.svg-icon,
+svg,
+pre,
+code {
+  color: rgb(240, 240, 240);
+  text-rendering: optimizeLegibility;
+}
+
+blockquote {
+  text-align: left;
+}
+
+a,
+a:visited {
+  text-decoration: underline;
+  color: rgb(240, 240, 240, 0.75);
+}
+
+a:hover {
+  color: rgb(240, 240, 240);
+}
+
+.page-link,
+.page-link:visited {
+  text-decoration: underline;
+  color: rgba(240, 240, 240, 0.75);
+}
+
+.page-link:hover {
+  color: rgba(240, 240, 240);
+}
+
+.site-header {
+  text-align: right;
+  border-style: none;
+}
+
+.button {
+  margin: 0px 15px;
+}
+
+.anim_background {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.15;
+}
+
+.site-footer {
+  border-style: none;
+}
+
+.wrapper {
+  max-width: -webkit-calc(1200px - (30px * 2));
+  max-width: calc(1200px - (30px * 2));
+}
+
+.page-content {
+  background-image: url("images/resume_background.png");
+  background-repeat: no-repeat;
+  background-position: 15vw 0px;
+}
+
+.txt_what {
+  display: inline-block;
+  transform: rotate(-90deg);
+  padding: 15px;
+  margin: -25px 15px 15px -65px;
+}
+
+.empty_space {
+  height: 20vh;
+  padding: 15px;
+}
+
+.txt_about {
+  padding: 15px;
+}
+
+.row {
+  display: flex;
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: calc(800px - (30px * 2));
+  margin: auto;
+}
+
+.col {
+  text-align: center;
+  padding: 15px;
+}
+
+.in_3s {
+  flex: 33.33%;
+}
+
+.in_2s {
+  flex: 50%;
+}
+
+.site-footer {
+  padding: 15px;
+}
+
+.svg {
+  border-radius: 0;
+  margin: 0;
+  box-shadow: none;
+  image-rendering: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50%;
+  max-height: 50%;
+  padding: 15px;
+}
+
+.svg1 {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.svg2 {
+  max-width: 35%;
+  max-height: 35%;
+}
+
+/* This needs to be at the end to override any global margin aplications. */
+.spacer_top {
+  margin-top: 60px;
+}
+
+.spacer_top_small {
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 800px) {
+  .txt_about {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .anim_background {
+    width: 800px;
+    height: 800px;
+    top: -100px;
+    left: -150px;
+  }
+}

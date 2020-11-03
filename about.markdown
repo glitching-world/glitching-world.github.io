@@ -20,7 +20,7 @@ So recently, after realizing that I was developing depression tied to feeling un
 
 This little site is the first step to pursue a new career, helping remember stuff I forgot with time like HTML and CSS, but also to learn new things like liquid design and static web sites, be aware that this place is an experimenting sandbox besides being my weird blog / portfolio, so weird stuff might show up from time to time.
 
-From now on besides developing my web skill, I want to get back to creative coding, that was a little neat hobby I stopped doing for no reason, develop 3D skills in modeling and animation, and start learning a programming language, not sure which yet.
+From now on besides developing my web skill, I want to get back to creative coding and doing little neat animation projects in 2D, 3D or Stop Motion, those were little neat hobbies I stopped doing for no reason, and start learning a programming language, not sure which yet.
 I may be asking a lot from myself but I like to say:
 
-> **Give me enough coffee and all is possible.**
+> Give me enough coffee and all is possible.
