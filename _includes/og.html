@@ -1,3 +1,4 @@
+<!-- OG START -->
 <meta content="{{ site.title }}" property="og:site_name">
 {% if page.title %}
 <meta content="{{ page.title }}" property="og:title">
@@ -22,9 +23,9 @@
 <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
 {% if page.image %}
-<meta content="{{ site.url }}{{ page.url }}assets/images/{{ page.featured-image }}" property="og:image">
+<meta content="{{ '/' | relative_url }}assets/images/{{ page.featured-image }}" property="og:image">
 {% else %}
-<meta content="{{ site.url }}{{ page.url }}assets/images/og_temp.jpg" property="og:image">
+<meta content="{{ '/' | relative_url }}assets/images/og_temp.jpg" property="og:image">
 {% endif %}
 {% if page.categories %}
 {% for category in page.categories limit:1 %}
@@ -36,3 +37,4 @@
 <meta content="{{ tag }}" property="article:tag">
 {% endfor %}
 {% endif %}
+<!-- OG END -->
