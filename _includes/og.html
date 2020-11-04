@@ -22,7 +22,7 @@
 <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
 <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.image %}
+{% if page.featured-image %}
 <meta content="{{ '/' | relative_url }}assets/images/{{ page.featured-image }}" property="og:image">
 {% else %}
 <meta content="{{ '/' | relative_url }}assets/images/og_temp.jpg" property="og:image">
