@@ -109,8 +109,9 @@ a:hover {
   flex: 50%;
 }
 
-.site-footer {
+.tiny_footer {
   padding: 15px;
+  font-size: 0.75em;
 }
 
 .svg {
