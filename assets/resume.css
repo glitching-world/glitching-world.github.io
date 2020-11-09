@@ -101,6 +101,10 @@ a:hover {
   padding: 15px;
 }
 
+.in_4s {
+  flex: 25%;
+}
+
 .in_3s {
   flex: 33.33%;
 }

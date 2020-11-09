@@ -15,7 +15,7 @@ The image and sound is captured through one or more webcams plus their respectiv
 
 The tampering caused varied between changing the RGB channels or pixels individual values and positions, thus obtaining a colorful and unique visual effects. Sometimes the effect created by the glitch can be so drastic that the captured image becomes unrecognizable.
 
-An image: ![My computer sees things in weird way.](/assets/images/noise.jpg)
+![My computer sees things in weird way.](/assets/images/noise.jpg)
 
 > NOISE is more than visualization of sound, it represents a fragmented way of interpreting what surrounds us.
 
